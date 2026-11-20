@@ -1,0 +1,56 @@
+{
+  "name": "cursor-cycle-monitor",
+  "displayName": "Cursor Cycle Usage Monitor",
+  "description": "Live Cursor billing cycle spend, remaining balance, daily burn, and renewal countdown in your status bar.",
+  "version": "1.0.0",
+  "publisher": "subashpatra",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sp23011986/cursor-cycle-monitor"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cursorCycleMonitor.setToken",
+        "title": "Cursor Monthly: Set Session Token"
+      },
+      {
+        "command": "cursorCycleMonitor.refresh",
+        "title": "Cursor Monthly: Refresh Usage"
+      }
+    ],
+    "configuration": {
+      "title": "Cursor Cycle Usage Monitor",
+      "properties": {
+        "cursorCycleMonitor.defaultLimitDollars": {
+          "type": "number",
+          "default": 200,
+          "description": "Fallback monthly dollar allowance when no individual admin spend limit is set."
+        },
+        "cursorCycleMonitor.timezoneOffsetHours": {
+          "type": "number",
+          "default": 5.5,
+          "description": "Timezone offset in hours from UTC used to calculate Today's spend (e.g., 5.5 for IST, 0 for UTC, -5 for EST)."
+        },
+        "cursorCycleMonitor.refreshIntervalSeconds": {
+          "type": "number",
+          "default": 15,
+          "minimum": 5,
+          "description": "How often (in seconds) to refresh usage from Cursor's API."
+        }
+      }
+    }
+  }
+}
