@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Setup help & troubleshooting
+    url: https://github.com/sp23011986/cursor-cycle-monitor/blob/main/SUPPORT.md
+    about: Most connection problems are solved here in under a minute.
+  - name: Report a security issue privately
+    url: https://github.com/sp23011986/cursor-cycle-monitor/security/advisories/new
+    about: Please do not open public issues for security problems.

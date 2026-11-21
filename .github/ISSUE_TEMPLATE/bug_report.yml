@@ -1,0 +1,35 @@
+name: Bug report
+description: Something is wrong or not showing up
+labels: [bug, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Never paste your session token or cookie.**
+        Tip: run **AI Spend Monitor: Report an Issue** in the editor — it fills in the environment for you.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you see instead? Screenshots help (use the privacy mask).
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. …\n2. …"
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Auto-filled by "Report an Issue" (no tokens or amounts).
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Output panel → "AI Spend Monitor" (or run "AI Spend Monitor: Export Debug Report") (remove anything private).
+      render: text

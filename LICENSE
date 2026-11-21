@@ -1,13 +1,66 @@
-MIT License
+AI Spend Monitor — Source-Available License
+Version 1.0 (applies to version 3.0.0 and later)
 
-Copyright (c) 2026
+Copyright (c) 2026 Subash Patra. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This is a source-available license, not an open-source license. The source code is
+published so that anyone can read and review it. Using it is subject to the terms below.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Official builds — free to use
+
+   "Official Builds" are the packages of this software published by the Licensor
+   (publisher "subashpatra", extension ID "subashpatra.cursor-cycle-monitor") on the Open VSX
+   Registry, the Visual Studio Code Marketplace, or the Licensor's GitHub Releases page.
+
+   You may install and use Official Builds free of charge, for any purpose, including
+   commercial use within a company, on any number of machines, for an unlimited time.
+
+2. Source code — read-only without a license
+
+   Without a separate written license from the Licensor ("License Key"), you may view and
+   read the source code, for example to review it for security. You may NOT, in whole or
+   in part:
+
+   a. build, compile, package, install or run the software from the source code;
+   b. modify the software or create derivative works of it;
+   c. copy, distribute, sublicense, sell, publish or republish the software or any
+      derivative work, including under a different name, publisher or extension ID;
+   d. remove, bypass, disable or alter the license check or any license or copyright notice.
+
+   A License Key issued by the Licensor permits the licensee named in it to build and run
+   the software from source for their own use, for the period stated in the key (perpetual
+   if no end date is stated). It does not permit redistribution unless the key or a written
+   agreement says so.
+
+3. Contributions
+
+   If you submit a contribution (for example a pull request), you agree that the Licensor
+   may use, modify and distribute it under this license or any other license.
+
+4. Earlier versions
+
+   Versions of this software released before 3.0.0 were released under the MIT License and
+   remain under that license. This license applies to version 3.0.0 and all later versions.
+
+5. Termination
+
+   If you breach this license, your rights under it end automatically. The Licensor may also
+   request removal of any unauthorised copy or derivative from any registry or hosting service.
+
+6. No warranty and limitation of liability
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+   PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER DEALINGS IN THE
+   SOFTWARE. Usage and cost figures are provided for information only; always rely on your
+   provider's billing for the amounts you are charged.
+
+7. Trademarks
+
+   "Cursor", "Claude", "Claude Code", "GitHub" and "Copilot" are trademarks of their respective
+   owners. This software is not affiliated with or endorsed by them.
+
+For a License Key or any other permission, contact the Licensor through
+https://github.com/sp23011986/cursor-cycle-monitor/issues.
