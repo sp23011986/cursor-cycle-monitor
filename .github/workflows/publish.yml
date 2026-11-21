@@ -21,8 +21,5 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm ci
-
       - name: Publish to Open VSX
         run: npx ovsx publish --trusted-publishing
